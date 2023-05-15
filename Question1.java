@@ -25,7 +25,7 @@ Follow up: Can you solve the problem in O(1) extra space complexity? (The output
 space complexity analysis.)        
 */
 
-class Solution {
+public class Solution {
     public int[] productExceptSelf(int[] nums) {
         int left[] = new int[nums.length];
         int right[] = new int[nums.length];
